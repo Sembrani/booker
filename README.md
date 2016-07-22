@@ -28,3 +28,14 @@ The configuration files are:
 + __cbook.conf__ stores all the current bookings.
 + __email.conf__ will be used for all notificaton-related stuff.
 + __rooms.conf__ is a room preference file (some study rooms are much better than the others).
+
+## Booking Restrictions
++ 2x 2hr bookings / day (4hrs / day)
++ 5x bookings / 10 days (10hrs / 10 days)
++ To completely book out a room from 8am 'til midnight is 16 hours, or 4 people's bookings
++ 8 people can saturate a room's booking for 1 week, every 2 weeks
++ To permanently book a room (weekdays) indefinitely, 16 people's logins are required.
+
+More appropriate would be to book a room from 10am - 8pm (10 hrs / day), 2.5 people's bookings
+To continue this booking for a full week would require 5 people, on a bi-weekly basis, or 10 for
+complete saturation.

@@ -44,7 +44,7 @@ class parser:
                                     .format(line.strip()),file = self.log)
                             exit()
                     breaklist.append(hourlist)
-                timelist.append(breaklist)                    
+                timelist.append(breaklist)
         return timelist
     def bookings(self,filename):
         """Parses the bookings list and returns it as a list"""

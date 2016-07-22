@@ -23,7 +23,7 @@ class anulib:
         """Select date (datetime.date) and \
                 library (Chiefly, Hancock, Law) for the booking \
                 and check for errors"""
-        data = {'bday':date.isoformat(),'building':lib} 
+        data = {'bday':date.isoformat(),'building':lib}
         r = requests.post(self.url,data = data)
         rout = open('rout.html','w')
         print(r.text,file=rout)
